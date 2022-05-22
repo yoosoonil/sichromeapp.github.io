@@ -1,0 +1,82 @@
+.hidden {
+  display: none;
+}
+
+img {
+  position:absolute;
+  width:100%;
+  height:100%;
+  left: 0px;
+  top: 0px;
+  right:0px;
+  bottom:0px;
+  z-index: -1;
+  opacity:80%;
+  }
+
+/* h2 = 시계 */
+h2 {
+  font-size: 70px;
+  text-shadow:0.5px 0.5px 0.5px #000;
+  color:white;
+  user-select: none;
+  position: absolute; top: 10; left: 50%; transform: translate(-50%, -50%)
+}
+
+
+
+
+/* h1 = Hello 로그인 */
+h1 {
+  font-size: 60px;
+  text-shadow:0.5px 0.5px 0.5px #000;
+  color:white;
+  user-select: none;
+  position: absolute; top: 35%; left: 50%; transform: translate(-50%, -50%)
+}
+
+
+
+/* todo 입력란 */
+form {
+  font-size: 40px;
+  color:white;
+  user-select: none;
+  position: absolute; top: 47%; left: 50%; transform: translate(-50%, -50%)
+}
+
+/* todo 리스트 */
+#todo-list {
+  position: relative;
+    top: 400px;
+    left: 50%;
+    margin-left: -110px;
+    width: 400px;
+    text-align: left;
+}
+
+.btn {
+  border: 0px;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+/* 명언 */
+
+#quote {
+   font-size: 14px;
+    text-shadow:0.5px 0.5px 0.5px #000;
+    color:white;
+    user-select: none;
+    position: absolute; top: 90%; left: 50%; transform: translate(-50%, -50%)
+}
+
+
+
+/* 날씨 */
+#weather {
+  text-shadow:0.5px 0.5px 0.5px #000;
+  color: white;
+  position : absolute; bottom : 10px;
+  width: 300px;
+}
